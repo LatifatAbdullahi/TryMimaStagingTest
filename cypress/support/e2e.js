@@ -12,6 +12,7 @@ cy.on('uncaught:exception',()=>{
     return false
     
 })
-
+cy.visit('/');
+cy.clickSignUpButton()
 })
             
